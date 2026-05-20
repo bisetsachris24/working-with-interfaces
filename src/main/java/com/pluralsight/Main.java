@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) {
 
         // Build the list of people.
-        List<Person> myClassmate = new ArrayList<Person>();
+        List<Person> myClassmate = new ArrayList<>();
         myClassmate.add( new Person("Amani",       "Bisetsa",   25) );
         myClassmate.add( new Person("Eric",    "Shwartz",  44) );
         myClassmate.add( new Person("Anthony",     "Belthan",   26) );
@@ -27,7 +27,7 @@ public class Main {
 
         // Display after sorting (by last name).
         System.out.println();
-        System.out.println("=== Sorted by last name ===");
+        System.out.println("== Sorted by last name ==");
         printPeople(myClassmate);
     }
 
